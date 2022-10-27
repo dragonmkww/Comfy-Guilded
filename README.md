@@ -9,7 +9,7 @@ Step 1. Download the "GCLXv102.zip" file from the "releases" section of this rep
 
 Step 2. Extract the ZIP file locally on your pc
 
-Step 3. Move the "Chillax" folder into C:\Users\Your-User-Name\AppData\Roaming\.reguilded\themes
+Step 3. Move the "Chillax" folder into C:\Users\Your-Username\AppData\Roaming\.reguilded\themes
 
 Step 4. Open Guilded and go into your ReGuilded settings and enable the theme called "Chillax"
 
