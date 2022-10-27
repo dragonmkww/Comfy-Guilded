@@ -1,0 +1,205 @@
+@import url('https://ranger-4297.github.io/RG/SRC/Stable/ASSETS/CSS/BaseTheme.css');
+@import url('https://ranger-4297.github.io/RG/SRC/Stable/ASSETS/CSS/messages.css');
+@import url("https://idkgoodname.github.io/WithinTheCosmos/use/ColdNebula/guilded-code.css");
+@import url("https://idkgoodname.github.io/WithinTheCosmos/use/Addons/guilded-firacode.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --background-image: url('https://i.postimg.cc/28tWjwGX/bg2.gif');
+    --serverlist-image: var(--background-image);
+    --usermodal-image: var(--background-image);
+    --message-bg: rgba(0, 0, 0, 0);
+    --message-hover-bg: rgba(0, 0, 0, 0);
+    --mention-bg: var(--message-bg);
+    --mention-hover-bg: var(--message-hover-bg);
+    --accent-color: rgba(150, 150, 150, 0.5);
+    --mention-indent: var(--message-bg);
+    --memberlist-size: 5.5%;
+    --version1_03: none;
+}
+
+.ModalV2-container-fullscreen {
+    height: 900px;
+    width: 1600px;
+    box-shadow: none;
+}
+
+.ModalV2-container {
+    border: none;
+    box-shadow: none;
+}
+
+.ReactionIcon-image { --sheet: var(--img); }
+.NavV4Footer-right .LoggedInUserAvatar-container .LoggedInUserAvatar-online-status {
+    bottom: 0px;
+}
+
+.NavV4Footer-footer-content, .NavV4Footer-right {
+    border-radius: 0px 25px 0px 0px;
+}
+
+.DraftInputWithTitleV2-title-wrapper,
+.TeamThreadReplyCreator-unexpanded-wrapper,
+.Editor-container.Editor-container-type-simple.ChatV2MessageReplyTooltipInput-content-input {
+    border-radius: 30px;
+}
+
+.ReactionPicker-container,
+.SearchBarInput-container,
+.CardWrapper-container,
+.NavV4Footer-right,
+.UserProfilePostPanel-container,
+.NavV4FooterGlobalContextDisplay-teams-wrapper,
+.NavV4SectionSidebar-container,
+.ExplorePageV2-content-container,
+.DraftInputWithTitleV2-title-wrapper,
+.ChatChannelInputStatusBar-container,
+.Editor-container .Editor-container-type-simple .ChatV2MessageReplyTooltipInput-content-input,
+.TransientMenu-container-style-default,
+.ChatChannelInput-container .ChatChannelInput-editor {
+    background: none;
+    border: none;
+}
+
+.BannerWithButton-container,
+.UserGamesWidget-game-card,
+.FormConfirmButtonV2-container,
+.CopyableTextbox-container,
+.TeamChannelItemContents-container,
+.TeamNavSectionItem-container,
+.NavV4SectionSidebarOption-container, .NavV4SectionSidebarOption-container::after,
+.GuildedSelect-container .Select-control,
+.AvailabilityDisplayHeader-button,
+.HotkeyRecorder-container,
+.CollapsedInput-container-size-sm {
+    border-radius: 30px;
+}
+
+.AppV2-container-minimal-nav {
+    --team-selector-avatar-border-radius: 250px;
+}
+
+.AppV2-container-minimal-nav {
+    --team-selector-avatar-highlight-border-radius: 250px;
+    --team-selector-avatar-border-radius: 250px;
+}
+
+TeamPlaqueV2-profile-pic {
+    border-radius: 250px;
+}
+
+.TeamPlaqueV2-profile-pic-placeholder::after {
+    border-radius: 250px;
+}
+
+.TeamPlaqueV2-container-desktop .TeamPlaqueV2-profile-pic-placeholder {
+    border-radius: 250px;
+}
+
+.GroupAvatar-icon {
+    border-radius: 250px;
+}
+
+.GroupSelectorItem-container {
+    --avatar-highlight-border-radius: 250px;
+}
+
+.GroupAvatarTextLabel-layer {
+    border-radius: 250px;
+}
+
+.InlineAddItemControl-container {
+    --inline-add-item-border-radius: 250px;
+}
+
+.NavV4BadgedItem-container::after {
+    border-radius: 250px;
+}
+
+.NavV4BadgedItem-image, .NavV4BadgedItem-icon-wrapper {
+    border-radius: 250px;
+}
+
+.PlayerCardProfilePicture-avatar, .UserProfilePictureControl-picture, .CircleImageStack-image {
+    -webkit-mask: center/cover no-repeat;
+}
+:only-child>.PlayerCardProfilePicture-avatar:only-child {
+    -webkit-mask: none;
+}
+.PlayerCardProfilePicture-container-size-sm .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.84375' cy='0.84375' r='0.25'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.CircleImageStack-container-size-md .CircleImageStack-image {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.7857142857' cy='0.7857142857' r='0.25'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.PlayerCardProfilePicture-container-size-md .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.8571428571' cy='0.8571428571' r='0.2380952381'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.ItemManagerListItem-icon-wrapper .PlayerCardProfilePicture-container-size-md .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.8125' cy='0.8125' r='0.28125'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.PlayerCardProfilePicture-container-size-lg .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.875' cy='0.875' r='0.2083333333'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.PlayerCardProfilePicture-container-size-xlg .PlayerCardProfilePicture-avatar {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.8541666667' cy='0.8541666667' r='0.1875'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.UserProfilePictureControl-picture {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.8833333333' cy='0.8833333333' r='0.1583333333'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+}
+.OnlineStatusDisplay-container {
+    border: unset;
+    border-radius: 50%;
+    -webkit-mask: center/calc(100% - 4px) no-repeat; /* this would've been much easier if chrome supported luminance masks */
+}
+.ContextMenuIcon-container-color {
+    -webkit-mask: center/cover no-repeat;
+}
+.UserProfilePictureControl-online-status {
+    right: 0; 
+}
+.OnlineStatusDisplay-container-size-xlg {
+    width: 28px;
+    height: 28px;
+}
+.TeamWidgetProfileDetails-container-size-md .OnlineStatusDisplay-container-size-sm {
+    width: 16px;
+    height: 16px;
+    bottom: -1px;
+    right: -1px;
+}
+.TeamWidgetProfileDetails-container-size-md-lg .OnlineStatusDisplay-container-size-md {
+    width: 20px;
+    height: 20px;
+}
+.OnlineStatusDisplay-container-size-xs {
+    width: 14px;
+    height: 14px;
+}
+.LoggedInUserAvatar-online-status {
+    padding: 2px;
+}
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(83, 218, 51);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/></svg>");
+    background-color: hsl(139, 47.3%, 43.9%);
+}
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(223, 83, 83);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><rect fill='black' x='0.125' y='0.375' width='0.75' height='0.25' rx='0.125' ry='0.125'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+    background-color: hsl(359, 82.6%, 59.4%);
+}
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(236, 178, 0);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.25' cy='0.25' r='0.375'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+    background-color: hsl(38, 95.7%, 54.1%);
+}
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(145, 70, 255);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><polygon fill='black' points='0.35,0.25 0.78301275,0.5 0.35,0.75'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+    background-color: hsl(262, 46.8%, 39.8%);
+}
+:is(.ContextMenuIcon-container-color, .OnlineStatusDisplay-container)[style="background-color: rgb(163, 163, 172);"] {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><mask id='m'><circle fill='white' cx='0.5' cy='0.5' r='0.5'/><circle fill='black' cx='0.5' cy='0.5' r='0.25'/></mask><rect fill='black' x='0' y='0' width='1' height='1' mask='url(%23m)'/></svg>");
+    background-color: hsl(214, 9.9%, 50.4%);
+}
