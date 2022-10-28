@@ -1,0 +1,11 @@
+{
+    "id": "Chillax",
+    "name": "Chillax",
+    "files": "theme.css",
+    "version": "1.0.3",
+
+    "author": "dVbyLWZd",
+      "contributors": ["dVka5Gzm", "xd9ZOzpm", "8dBvPlvd"],
+    "images": ["ss1.png", "ss2.png", "ss3.png", "ss4.png"],
+    "repoUrl": "https://github.com/dragonmkww/GCLX"
+}
