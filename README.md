@@ -5,7 +5,7 @@ ReGuilded is required
 
 INSTALLATION:
 
-Step 1. Download the "GCLXv103.zip" file from the "releases" section of this repo
+Step 1. Download the "GCLXv2.zip" file from the "releases" section of this repo
 
 Step 2. Extract the ZIP file locally on your pc
 
