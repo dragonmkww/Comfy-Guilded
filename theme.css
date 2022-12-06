@@ -20,6 +20,7 @@ body {
   --background-image: url('https://github.com/dragonmkww/Comfy-Guilded/blob/main/bg.gif?raw=true');
   --serverlist-image: transparent;
   --usermodal-image: transparent;
+  --message-bg: transparent;
   --message-hover-bg: var(--message-bg);
   --mention-bg: var(--message-bg);
   --mention-hover-bg: var(--message-bg);
