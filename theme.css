@@ -17,7 +17,7 @@ body {
 }
 
 :root {
-  --background-image: url('https://github.com/dragonmkww/Comfy-Guilded/blob/main/bg.gif?raw=true');
+  --background-image: url('https://dragonmkww.github.io/bg.gif');
   --serverlist-image: transparent;
   --usermodal-image: transparent;
   --message-bg: transparent;
