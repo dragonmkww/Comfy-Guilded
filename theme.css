@@ -558,3 +558,7 @@ body {
 .NavV4BadgedItemIcons-servers {
   display: none;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
