@@ -171,6 +171,7 @@ body {
 .MultiUserAvatar-user,
 .UserBadges-badge,
 .ChatSummary-container,
+.OptionsMenuPageWrapper-container,
 .ChatChannelInput-container .ChatChannelInput-editor {
   background: transparent !important;
   border: none !important;
