@@ -51,11 +51,11 @@ body {
 
 .VerticalSelectionIndicator-container,
 .GoldenProgressBar-progress {
-  background: linear-gradient(to right, rgba(200, 255, 255, 1), rgba(203, 195, 227, 1));
+  background: linear-gradient(to right, rgba(200, 255, 255, 1), rgba(250, 180, 216, 1), rgba(203, 195, 227, 1)) !important;
 }
 
 .BrowseFilesButton-container {
-  background: linear-gradient(to right, rgba(200, 255, 255, 1), rgba(203, 195, 227, 1));
+  background: linear-gradient(to right, rgba(200, 255, 255, 1), rgba(250, 180, 216, 1), rgba(203, 195, 227, 1)) !important;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
