@@ -556,7 +556,8 @@ body {
   display: none;
 }
 
-.NavV4BadgedItemIcons-servers {
+.NavV4BadgedItemIcons-servers,
+.NavV4FooterGlobalContextDisplay-teams-wrapper {
   display: none;
 }
 
