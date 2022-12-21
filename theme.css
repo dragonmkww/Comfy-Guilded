@@ -272,6 +272,7 @@ body {
   min-width: 260px;
   width: 25vw;
   background: transparent;
+  box-shadow: none !important;
 }
 
 .ProfileHoverCardActionBubbles-container {
