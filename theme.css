@@ -173,9 +173,26 @@ body {
 .UserBadges-badge,
 .ChatSummary-container,
 .OptionsMenuPageWrapper-container,
+.DefaultReadonlyEditableForm-container,
+.HorizontalTab-container-selected,
+.PersistentUpsell-container,
+.VoiceInputConfigurationPanel-audio-input-mode-option,
+.VoiceInputSensitivitySettingsPanel-auto-input:not(.VoiceInputSensitivitySettingsPanel-auto-input-flash),
+.RangeSlider-rail,
+.HotkeyRecorder-container,
+.ItemKeybindInput-container,
+.DeepSearchOverlay-container,
+.DeepSearchRecentQuery-container,
+.DeepSearchOverlayFooter-content-command,
+.DeepSearchOverlayFooter-content-icon,
+.DeepSearchResultInfo-preview,
+.TeamMemberRolePill-container,
+.UserAliasesListDisplayPill-container,
+.ChatV2Message-container-private-other,
 .ChatChannelInput-container .ChatChannelInput-editor {
   background: transparent !important;
   border: none !important;
+  box-shadow: none !important;
 }
 
 .NavV4TeamSelectorBottomOptionsList-container {
