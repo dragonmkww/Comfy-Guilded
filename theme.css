@@ -275,7 +275,7 @@ body {
 .ProfileHoverCardOverlay-container {
   min-width: 260px;
   width: 25vw;
-  background: transparent;
+  background: transparent !important;
   box-shadow: none !important;
 }
 
