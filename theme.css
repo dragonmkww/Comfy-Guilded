@@ -538,6 +538,23 @@ body {
   right: 5px !important;
 }
 
+.WebAppV2-container.WebAppV2-container-has-sidebar:not(.WebAppV2-container-menu-activated) {
+  transform: translateX(64px);
+  max-width: calc(100% - 64px);
+}
+
+.NavV4SidebarFooter-container {
+  padding-left: 65px;
+}
+
+.NavV4Footer-footer-content {
+  padding-left: 0;
+}
+
+.NavV4BadgedItemIcons-dms {
+  display: none;
+}
+
 .WebAppV2-container {
   --team-page-nav-width: 295px !important;
 }
