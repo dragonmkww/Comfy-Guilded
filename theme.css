@@ -413,53 +413,6 @@ body {
   border: none;
 }
 
-.AppV2-container-minimal-nav {
-  --team-selector-avatar-border-radius: 250px;
-}
-
-.AppV2-container-minimal-nav {
-  --team-selector-avatar-highlight-border-radius: 250px;
-  --team-selector-avatar-border-radius: 250px;
-}
-
-.TeamPlaqueV2-profile-pic {
-  border-radius: 250px;
-}
-
-.TeamPlaqueV2-profile-pic-placeholder::after {
-  border-radius: 250px;
-}
-
-.TeamPlaqueV2-container-desktop,
-.TeamPlaqueV2-profile-pic-placeholder {
-  border-radius: 250px;
-}
-
-.GroupAvatar-icon {
-  border-radius: 250px;
-}
-
-.GroupSelectorItem-container {
-  --avatar-highlight-border-radius: 250px;
-}
-
-.GroupAvatarTextLabel-layer {
-  border-radius: 250px;
-}
-
-.InlineAddItemControl-container {
-  --inline-add-item-border-radius: 250px;
-}
-
-.NavV4BadgedItem-container::after {
-  border-radius: 250px;
-}
-
-.NavV4BadgedItem-image,
-.NavV4BadgedItem-icon-wrapper {
-  border-radius: 250px;
-}
-
 .PlayerCardProfilePicture-avatar, .UserProfilePictureControl-picture, .CircleImageStack-image {
   -webkit-mask: center/cover no-repeat;
 }
@@ -562,23 +515,7 @@ body {
   background-color: hsl(214, 9.9%, 50.4%) !important;
 }
 
-.WebAppV2-container.WebAppV2-container-has-sidebar:not(.WebAppV2-container-menu-activated) {
-  transform: translateX(64px);
-  max-width: calc(100% - 64px);
-}
-
-.NavV4SidebarFooter-container {
-  padding-left: 65px;
-}
-
-.NavV4Footer-footer-content {
-  padding-left: 0;
-}
-
-.NavV4BadgedItemIcons-dms {
-  display: none;
-}
-
+.NavV4BadgedItemIcons-dms,
 .NavV4BadgedItemIcons-servers,
 .NavV4FooterGlobalContextDisplay-teams-wrapper {
   display: none;
@@ -599,4 +536,101 @@ body {
 
 .ChatV2Message-container-mentioned:not(.ChatV2MessageReplyHeader-container) {
   right: 5px !important;
+}
+
+.WebAppV2-container {
+  --team-page-nav-width: 295px !important;
+}
+
+
+.WebAppV2-sidebar {
+  --team-page-nav-width: 295px !important;
+}
+
+.GroupSelector-container {
+  width: 55px;
+}
+
+.GroupAvatar-container {
+  --avatar-size: 30px;
+  margin-left: 5px;
+}
+
+.NavSelectorItem-contents:after {
+  --avatar-size: 30px;
+  margin-left: 5px;
+}
+
+.NavSelectorItem-container-orientation-horizontal.NavSelectorItem-container-unread:before {
+  top: calc(50% - 10px);
+}
+
+.NavV4SelectorRow-icon {
+  border-radius: 50rem;
+}
+
+.NavV4SelectorRow-container-icon-outline:hover .NavV4SelectorRow-icon {
+  border-radius: 1rem;
+}
+
+.NavV4TeamSelectorRow-container-active .NavV4SelectorRow-icon {
+  border-radius: 1rem;
+}
+
+.NavV4TeamSelectorTeamList-container .NavV4SelectorRow-icon-container {
+  --team-selector-avatar-size: 42px;
+  left: -4px;
+}
+
+.NavV4SelectorRow-container-icon-outline.NavV4SelectorRow-container-active .NavV4SelectorRow-icon-container:after {
+  background-color: white;
+  left: -59px;
+  top: 0px;
+  height: 100%;
+}
+
+.NavV4SelectorRow-container-icon-outline:hover:not(.NavV4SelectorRow-container-active) .NavV4SelectorRow-icon-container:after {
+  transition: background-color 0.3s;
+  background-color: #ffffffd9;
+  left: -59px;
+  top: 10px;
+  height: 63%;
+}
+
+.ModalV2-container-fullscreen, 
+.MediaSplitView-container-desktop {
+  max-width: 50vw;
+  height: 85vh;
+}
+
+.CreateGroupOverlayWrapper-content {
+  zoom: 0.8;
+}
+
+.StreamTheaterViewer-container {
+  margin-left: -25vw;
+  margin-top: -6.4vh;
+}
+
+.StreamTheaterViewer-chat-portal {
+  background-color: #373943;
+}
+
+.ModalV2-container-fullscreen, 
+.MediaSplitView-container-desktop {
+  border-radius: 10px;
+}
+
+.ModalV2-container-fullscreen > div {
+  border-radius: 10px;
+}
+
+.MediaSplitView-media {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.MediaSplitView-info-pane {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
