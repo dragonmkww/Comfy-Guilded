@@ -587,3 +587,12 @@ body {
 .NavV4TeamSelector-options-list .NavV4SelectorRow-container {
   right: 10px !important;
 }
+
+.ChatV2Message-container-mentioned::after,
+.ChatV2Message-container-private-other::after {
+  display: none !important;
+}
+
+.ChatV2Message-container-mentioned:not(.ChatV2MessageReplyHeader-container) {
+  right: 5px !important;
+}
