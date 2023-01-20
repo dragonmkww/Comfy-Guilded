@@ -111,6 +111,11 @@ body {
   -moz-text-fill-color: transparent;
 }
 
+.PercentageBar-progress-div {
+  background: linear-gradient(to right, rgba(215, 134, 20, 1), rgba(221, 95, 200, 1)) !important;
+  border: none !important;
+}
+
 .TeamPageSidebarMembersV2-container > .VirtualizedList-container .SidebarInviteButton-container {
   display: none;
 }
@@ -132,6 +137,10 @@ body {
   width: 100%;
   height: max-content;
   text-align: center;
+}
+
+.LoggedInUserAvatar-online-status {
+  background: rgba(57, 61, 62, 1) !important;
 }
 
 .SearchBarInput-container,
