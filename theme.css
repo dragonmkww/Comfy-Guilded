@@ -1,5 +1,7 @@
 @import url('https://ranger-4297.github.io/RG/SRC/Stable/ASSETS/CSS/BaseTheme.css');
 @import url('https://ranger-4297.github.io/RG/SRC/Stable/ASSETS/CSS/messages.css');
+@import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/emojis/Microsoft_Fluent.css");
+@import url("https://raw.githack.com/Davr1/Guilded-Emoji-Replace/master/common.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&display=swap');
