@@ -248,6 +248,7 @@ body {
 .UserAliasesListDisplayPill-container,
 .ChatV2Message-container-private-other,
 .PercentageBar-backplate-div,
+.TeamPageContent-container,
 .ChatChannelInput-container .ChatChannelInput-editor {
   background: transparent !important;
   border: none !important;
