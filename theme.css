@@ -248,7 +248,6 @@ body {
 .UserAliasesListDisplayPill-container,
 .ChatV2Message-container-private-other,
 .PercentageBar-backplate-div,
-.TeamPageContent-container,
 .ChatChannelInput-container .ChatChannelInput-editor {
   background: transparent !important;
   border: none !important;
@@ -767,4 +766,10 @@ body {
 .MediaSplitView-info-pane {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.TeamPageContent-container {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
