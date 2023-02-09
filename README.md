@@ -1,5 +1,5 @@
 # Comfy Guilded
-A comfy, chill, and visually pleasing theme for Guilded.
+A warm, modern, and visually pleasing theme for Guilded.
 
 ReGuilded is required
 
