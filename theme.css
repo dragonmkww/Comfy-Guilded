@@ -249,6 +249,8 @@ body {
 .ChatV2Message-container-private-other,
 .PercentageBar-backplate-div,
 .SidebarWrapper-container,
+.TeamBotsManagerSidebar-container,
+.TeamBotsManagerSidebarLink-icon-wrapper,
 .ChatChannelInput-container .ChatChannelInput-editor {
   background: transparent !important;
   border: none !important;
