@@ -794,3 +794,9 @@ body {
   right: -12.5px !important;
   bottom: -12.5px !important;
 }
+
+#icon-verified-badge path:first-child {
+  fill: rgba(215, 134, 20, 1) !important;
+  stroke: rgba(0, 0, 0, 0.25) !important;
+  stroke-width: 2px !important;
+}
