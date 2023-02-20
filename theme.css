@@ -777,6 +777,7 @@ body {
 
 .TeamBotsManagerSidebar-container,
 .TeamBotsManagerSidebarLink-icon-wrapper,
+.DeepSearchOverlay-empty-modifiers-text,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
