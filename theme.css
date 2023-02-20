@@ -739,7 +739,7 @@ body {
 
 .ModalV2-container-fullscreen, 
 .MediaSplitView-container-desktop {
-  max-width: 60vw;
+  max-width: 70vw;
   height: 85vh;
 }
 
@@ -782,4 +782,9 @@ body {
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
+}
+
+.TeamBotsManagerSidebarBot-icon,
+.BotInfoHeaderAvatar-icon {
+  border-radius: 8% !important;
 }
