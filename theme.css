@@ -739,7 +739,7 @@ body {
 
 .ModalV2-container-fullscreen, 
 .MediaSplitView-container-desktop {
-  max-width: 50vw;
+  max-width: 60vw;
   height: 85vh;
 }
 
