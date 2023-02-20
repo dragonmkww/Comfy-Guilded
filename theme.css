@@ -785,6 +785,7 @@ body {
 }
 
 .TeamBotsManagerSidebarBot-icon,
+.TeamBotsManagerEmptyStateDefaultBot-icon,
 .BotInfoHeaderAvatar-icon {
   border-radius: 8% !important;
 }
