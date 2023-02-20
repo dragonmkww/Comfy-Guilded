@@ -789,3 +789,8 @@ body {
 .BotInfoHeaderAvatar-icon {
   border-radius: 8% !important;
 }
+
+.BotInfoHeaderAvatar-status {
+  right: -12.5px !important;
+  bottom: -12.5px !important;
+}
