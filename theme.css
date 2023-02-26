@@ -779,6 +779,16 @@ body {
 .TeamBotsManagerSidebarLink-icon-wrapper,
 .DeepSearchOverlay-empty-modifiers-text,
 .UserProfileV3-container-minimal-nav-active,
+.LastReplyDisplay-container.LastReplyDisplay-container-indicator-color-gilded:not(.LastReplyDisplay-container-unread):before,
+.ItemManagerListItem-container,
+.ItemManagerHeader-container,
+.ApplicantDisplayItem-container,
+.FullSizedCalendar-week,
+.MediaDisplayItemV3-container,
+.PlayerGameStatsCategorySelectorWrapper-container,
+.PlayerGameSimpleStatsTile-container,
+.UserInfoSummaryItem-container,
+.UserAliasAdditionalInfoDisplayWrapper-container,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
