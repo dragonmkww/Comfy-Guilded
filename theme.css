@@ -793,6 +793,8 @@ body {
 .ServerSubscriptionBar-container,
 .UserSettingsServerSubscriptionsUpsell-container,
 .ModalV2-container-fullscreen,
+.CustomFormWrapper-container,
+.TeamOverviewLeaderboardSection-leaderboard-container,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
