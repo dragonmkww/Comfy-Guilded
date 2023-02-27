@@ -789,6 +789,10 @@ body {
 .PlayerGameSimpleStatsTile-container,
 .UserInfoSummaryItem-container,
 .UserAliasAdditionalInfoDisplayWrapper-container,
+.OptionsMenu-options-control,
+.ServerSubscriptionBar-container,
+.UserSettingsServerSubscriptionsUpsell-container,
+.ModalV2-container-fullscreen,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
