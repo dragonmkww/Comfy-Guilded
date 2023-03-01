@@ -795,6 +795,7 @@ body {
 .ModalV2-container-fullscreen,
 .CustomFormWrapper-container,
 .TeamOverviewLeaderboardSection-leaderboard-container,
+.ServerSubscriptionsSetupUpsell-content,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
