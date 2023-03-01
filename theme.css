@@ -796,6 +796,7 @@ body {
 .CustomFormWrapper-container,
 .TeamOverviewLeaderboardSection-leaderboard-container,
 .ServerSubscriptionsSetupUpsell-content,
+.MaximizedImageOverlay-container,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
