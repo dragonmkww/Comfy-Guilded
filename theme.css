@@ -799,6 +799,7 @@ body {
 .MaximizedImageOverlay-container,
 .GroupMembershipBadge-container,
 .PrismTokenInlineRenderer-container-type-code,
+.TeamRoleCardOverlay-container,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
