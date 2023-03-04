@@ -798,6 +798,7 @@ body {
 .ServerSubscriptionsSetupUpsell-content,
 .MaximizedImageOverlay-container,
 .GroupMembershipBadge-container,
+.PrismTokenInlineRenderer-container-type-code,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
