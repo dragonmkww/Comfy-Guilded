@@ -831,3 +831,9 @@ body {
   border: none !important;
   box-shadow: none !important;
 }
+
+.InlineAddItemControl-container {
+  --inline-add-icon-background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
