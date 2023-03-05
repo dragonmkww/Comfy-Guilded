@@ -800,6 +800,7 @@ body {
 .GroupMembershipBadge-container,
 .PrismTokenInlineRenderer-container-type-code,
 .TeamRoleCardOverlay-container,
+.TeamRoleCardOverlay-info-count,
 .TeamPageContent-container {
   background: transparent !important;
   border: none !important;
