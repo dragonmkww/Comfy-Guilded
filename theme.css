@@ -730,11 +730,11 @@ body {
 }
 
 .NavV4SelectorRow-container-icon-outline:hover:not(.NavV4SelectorRow-container-active) .NavV4SelectorRow-icon-container:after {
-  transition: background-color 0.3s;
-  background-color: #ffffffd9;
-  left: -59px;
-  top: 10px;
-  height: 63%;
+  height: 23px;
+  top: calc(33% - 4px);
+  background: #fff;
+  border-radius: 0 4px 4px 0;
+  transition: 220ms;
 }
 
 .ModalV2-container-fullscreen, 
