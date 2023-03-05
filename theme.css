@@ -838,3 +838,11 @@ body {
   border: none !important;
   box-shadow: none !important;
 }
+
+.NavV4SelectorRow-container-icon-outline:hover:not(.NavV4SelectorRow-container-active) .NavV4SelectorRow-icon-container:after {
+  height: 23px !important;
+  top: calc(33% - 4px) !important;
+  background: rgba(255, 255, 255, 1) !important;
+  border-radius: 0 4px 4px 0 !important;
+  transition: 220ms !important;
+}
