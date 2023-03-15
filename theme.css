@@ -801,6 +801,7 @@ body {
 .PrismTokenInlineRenderer-container-type-code,
 .TeamRoleCardOverlay-container,
 .TeamRoleCardOverlay-info-count,
+.SVGIcon-container,
 .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private-other).ChatV2Message-container-private::after,
 .TeamPageContent-container {
   background: transparent !important;
