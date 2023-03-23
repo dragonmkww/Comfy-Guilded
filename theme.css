@@ -10,7 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.PrismTokenGenericLanguageRenderer-atrule,.PrismTokenGenericLanguageRenderer-atrule-line,.PrismTokenGenericLanguageRenderer-keyword,.PrismTokenGenericLanguageRenderer-tag {
+.PrismTokenGenericLanguageRenderer-atrule, .PrismTokenGenericLanguageRenderer-atrule-line, .PrismTokenGenericLanguageRenderer-keyword, .PrismTokenGenericLanguageRenderer-tag {
   color: #fe603f;
 }
 
@@ -22,7 +22,7 @@ body {
   color: #000;
 }
 
-.PrismTokenGenericLanguageRenderer-deleted,.PrismTokenGenericLanguageRenderer-deleted-sign {
+.PrismTokenGenericLanguageRenderer-deleted, .PrismTokenGenericLanguageRenderer-deleted-sign {
   color: #fe603f;
 }
 
@@ -30,7 +30,7 @@ body {
   color: #fe603f;
 }
 
-.PrismTokenGenericLanguageRenderer-inserted,.PrismTokenGenericLanguageRenderer-inserted-sign {
+.PrismTokenGenericLanguageRenderer-inserted, .PrismTokenGenericLanguageRenderer-inserted-sign {
   color: #bcec6a;
 }
 
@@ -42,11 +42,11 @@ body {
   color: #ffb95e;
 }
 
-.PrismTokenGenericLanguageRenderer-template-string,.PrismTokenGenericLanguageRenderer-string {
+.PrismTokenGenericLanguageRenderer-template-string, .PrismTokenGenericLanguageRenderer-string {
   color: #fc7d98;
 }
 
-.PrismTokenGenericLanguageRenderer-attr-value,.PrismTokenGenericLanguageRenderer-number,.PrismTokenGenericLanguageRenderer-boolean,.PrismTokenGenericLanguageRenderer-regex {
+.PrismTokenGenericLanguageRenderer-attr-value, .PrismTokenGenericLanguageRenderer-number, .PrismTokenGenericLanguageRenderer-boolean, .PrismTokenGenericLanguageRenderer-regex {
   color: #c998f9;
 }
 
@@ -58,11 +58,11 @@ body {
   color: #9c74f8;
 }
 
-.PrismTokenGenericLanguageRenderer-property,.PrismTokenGenericLanguageRenderer-property-line {
+.PrismTokenGenericLanguageRenderer-property, .PrismTokenGenericLanguageRenderer-property-line {
   color: #74a6f8;
 }
 
-.PrismTokenGenericLanguageRenderer-class-name,.PrismTokenGenericLanguageRenderer-builtin {
+.PrismTokenGenericLanguageRenderer-class-name, .PrismTokenGenericLanguageRenderer-builtin {
   color: #ffb95e;
 }
 
@@ -74,7 +74,7 @@ body {
   color: code-variable;
 }
 
-.PrismTokenGenericLanguageRenderer-less-variable,.PrismTokenGenericLanguageRenderer-variable-line {
+.PrismTokenGenericLanguageRenderer-less-variable, .PrismTokenGenericLanguageRenderer-variable-line {
   color: #ffb95e;
 }
 
