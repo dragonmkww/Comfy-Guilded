@@ -894,6 +894,7 @@ body {
 .ContentLoader-container,
 .ChatChannelInput-no-permissions,
 .ContentEmbedCardError-container,
+.LimitLabel-container,
 .ChatV2Message-container:not(.ChatV2Message-container-editing):not(.ChatV2Message-container-replying):not(.ChatV2Message-container-private-other).ChatV2Message-container-private::after,
 .TeamPageContent-container {
   background: transparent !important;
