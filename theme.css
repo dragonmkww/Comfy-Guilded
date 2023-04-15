@@ -901,6 +901,7 @@ body {
 .CollapsibleItemHeader-container,
 .CustomFormIndividualResponse-result-display,
 .ChatV2Message-content-wrapper .ChatMessageThread-container,
+.BotInfoBody-prefix,
 .LastReplyDisplay-container.LastReplyDisplay-container-indicator-color-gray:not(.LastReplyDisplay-container-unread):before,
 .ChatV2Message-content-wrapper .ChatMessageThread-container,
 .Editor-container,
