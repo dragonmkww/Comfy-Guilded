@@ -951,3 +951,11 @@ body {
   border-radius: 0 4px 4px 0 !important;
   transition: 220ms !important;
 }
+
+.ChatV2PinnedMessage-message-wrapper,
+.ChannelPinnedMessages-container {
+  background: transparent !important;
+  backdrop-filter: blur(5px) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
